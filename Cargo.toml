@@ -1,0 +1,10 @@
+[package]
+name = "gen-pas"
+version = "0.1.0"
+edition = "2024"
+description = "Простой калькулятор"
+authors = ["Lewis <email@example.com>"]
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
